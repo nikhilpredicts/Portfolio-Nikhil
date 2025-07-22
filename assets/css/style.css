@@ -1885,6 +1885,29 @@ textarea.form-input::-webkit-resizer { display: none; }
   font-size: 40px;
   color: #FFD700;
 }
+}
 
 
+@media (max-width: 449px) {
+  .service-item {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .navbar {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .project-list {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    padding: 10px;
+  }
+
+  .content-card {
+    padding: 20px 10px;
+  }
 }
